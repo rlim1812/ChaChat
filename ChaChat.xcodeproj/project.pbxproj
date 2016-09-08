@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		372AAABA1D76255D00FA7146 /* LoginRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372AAAB91D76255D00FA7146 /* LoginRegisterViewController.swift */; };
+		3739C0D21D79D9EE00164A7D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3739C0D11D79D9EE00164A7D /* Constants.swift */; };
 		375936B61D748BFB00F53BCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375936B51D748BFB00F53BCC /* AppDelegate.swift */; };
 		375936B81D748BFB00F53BCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375936B71D748BFB00F53BCC /* ViewController.swift */; };
 		375936BB1D748BFB00F53BCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 375936B91D748BFB00F53BCC /* Main.storyboard */; };
 		375936BD1D748BFB00F53BCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 375936BC1D748BFB00F53BCC /* Assets.xcassets */; };
 		375936C01D748BFB00F53BCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 375936BE1D748BFB00F53BCC /* LaunchScreen.storyboard */; };
+		375936C81D748CF200F53BCC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 375936C71D748CF200F53BCC /* GoogleService-Info.plist */; };
+		37F1D49B1D7730D0001179EA /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F1D49A1D7730D0001179EA /* Utilities.swift */; };
+		94BF93D9415EB9E882E3E1E8 /* Pods_ChaChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE09A47EA5D5D02D7B7327C /* Pods_ChaChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0631980786C92B25D2B2F7D4 /* Pods-ChaChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChaChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChaChat/Pods-ChaChat.release.xcconfig"; sourceTree = "<group>"; };
+		372AAAB91D76255D00FA7146 /* LoginRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRegisterViewController.swift; sourceTree = "<group>"; };
+		3739C0D11D79D9EE00164A7D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		375936B21D748BFB00F53BCC /* ChaChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChaChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		375936B51D748BFB00F53BCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		375936B71D748BFB00F53BCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,10 @@
 		375936BC1D748BFB00F53BCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		375936BF1D748BFB00F53BCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		375936C11D748BFB00F53BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		375936C71D748CF200F53BCC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		37F1D49A1D7730D0001179EA /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		8E532DC1141BD440698F6687 /* Pods-ChaChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChaChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChaChat/Pods-ChaChat.debug.xcconfig"; sourceTree = "<group>"; };
+		9DE09A47EA5D5D02D7B7327C /* Pods_ChaChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChaChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94BF93D9415EB9E882E3E1E8 /* Pods_ChaChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +53,8 @@
 			children = (
 				375936B41D748BFB00F53BCC /* ChaChat */,
 				375936B31D748BFB00F53BCC /* Products */,
+				7497EBE5133D6E77DD0A25CA /* Pods */,
+				F39F25E7FF30EE21097FA697 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +71,33 @@
 			children = (
 				375936B51D748BFB00F53BCC /* AppDelegate.swift */,
 				375936B71D748BFB00F53BCC /* ViewController.swift */,
+				3739C0D11D79D9EE00164A7D /* Constants.swift */,
 				375936B91D748BFB00F53BCC /* Main.storyboard */,
 				375936BC1D748BFB00F53BCC /* Assets.xcassets */,
+				372AAAB91D76255D00FA7146 /* LoginRegisterViewController.swift */,
+				37F1D49A1D7730D0001179EA /* Utilities.swift */,
 				375936BE1D748BFB00F53BCC /* LaunchScreen.storyboard */,
+				375936C71D748CF200F53BCC /* GoogleService-Info.plist */,
 				375936C11D748BFB00F53BCC /* Info.plist */,
 			);
 			path = ChaChat;
+			sourceTree = "<group>";
+		};
+		7497EBE5133D6E77DD0A25CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E532DC1141BD440698F6687 /* Pods-ChaChat.debug.xcconfig */,
+				0631980786C92B25D2B2F7D4 /* Pods-ChaChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F39F25E7FF30EE21097FA697 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DE09A47EA5D5D02D7B7327C /* Pods_ChaChat.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 375936C41D748BFB00F53BCC /* Build configuration list for PBXNativeTarget "ChaChat" */;
 			buildPhases = (
+				3144EA53EFBA57657886042E /* [CP] Check Pods Manifest.lock */,
 				375936AE1D748BFB00F53BCC /* Sources */,
 				375936AF1D748BFB00F53BCC /* Frameworks */,
 				375936B01D748BFB00F53BCC /* Resources */,
+				6FE1A47F79A16F5F4C962E19 /* [CP] Embed Pods Frameworks */,
+				3F303189E02A3EE0744BE3EC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				375936C01D748BFB00F53BCC /* LaunchScreen.storyboard in Resources */,
+				375936C81D748CF200F53BCC /* GoogleService-Info.plist in Resources */,
 				375936BD1D748BFB00F53BCC /* Assets.xcassets in Resources */,
 				375936BB1D748BFB00F53BCC /* Main.storyboard in Resources */,
 			);
@@ -133,12 +173,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3144EA53EFBA57657886042E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3F303189E02A3EE0744BE3EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChaChat/Pods-ChaChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FE1A47F79A16F5F4C962E19 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChaChat/Pods-ChaChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		375936AE1D748BFB00F53BCC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3739C0D21D79D9EE00164A7D /* Constants.swift in Sources */,
+				372AAABA1D76255D00FA7146 /* LoginRegisterViewController.swift in Sources */,
 				375936B81D748BFB00F53BCC /* ViewController.swift in Sources */,
+				37F1D49B1D7730D0001179EA /* Utilities.swift in Sources */,
 				375936B61D748BFB00F53BCC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +347,7 @@
 		};
 		375936C51D748BFB00F53BCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E532DC1141BD440698F6687 /* Pods-ChaChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ChaChat/Info.plist;
@@ -268,6 +360,7 @@
 		};
 		375936C61D748BFB00F53BCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0631980786C92B25D2B2F7D4 /* Pods-ChaChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ChaChat/Info.plist;
@@ -297,6 +390,7 @@
 				375936C61D748BFB00F53BCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
